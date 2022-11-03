@@ -15,4 +15,4 @@ When features were appropriately selected, a standard linear regression model wa
   - Standard linear regression and lasso models on the selected feature set were much less overfit than other models
   - Feature selection led to a model with drastically smaller CIs around its coefficients, dropping from an average of over 500% relative standard error per feature in the full model compared to 23% in the reduced model
   - The final model is a compromise between similar reduced models based on the reliability of the coefficients and AIC/BIC scores. This model improved the MAE by $40k on test data compared to the null model. 
-  - Having reliable coefficients shows the contribution of each feature to the final appraisal, which can be used to evaluate the benefits of various potential improvements or compare investments.
+  - Having reliable coefficients shows the contribution of each feature to the final appraisal. These can be used to evaluate the benefits of various potential improvements or compare investments.
